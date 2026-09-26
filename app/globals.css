@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  background-color: #0a0b0d;
+  color: #e8eaed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #c98a3e33;
+}
+
+.mono-tab {
+  font-variant-numeric: tabular-nums;
+}
